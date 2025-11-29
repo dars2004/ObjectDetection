@@ -1,0 +1,12 @@
+# Install Ultralytics from the GitHub repository as requested
+ultralytics @ git+https://github.com/ultralytics/ultralytics.git
+
+# Web framework
+Flask>=3.0.0
+
+# Imaging / arrays
+Pillow>=10.0.0
+numpy>=1.23.0
+
+# Optional: if you face torch install issues, install a CPU wheel explicitly
+# torch --extra-index-url https://download.pytorch.org/whl/cpu
